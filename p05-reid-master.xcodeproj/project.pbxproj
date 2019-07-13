@@ -13,6 +13,7 @@
 		B52B610F22DA038300ED995C /* p05_reid_master.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B52B610D22DA038300ED995C /* p05_reid_master.xcdatamodeld */; };
 		B52B611122DA038600ED995C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B52B611022DA038600ED995C /* Assets.xcassets */; };
 		B52B611422DA038600ED995C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B52B611222DA038600ED995C /* LaunchScreen.storyboard */; };
+		B52B611C22DA09CB00ED995C /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B611B22DA09CB00ED995C /* Globals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B52B611022DA038600ED995C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B52B611322DA038600ED995C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B52B611522DA038600ED995C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B52B611B22DA09CB00ED995C /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				B52B611222DA038600ED995C /* LaunchScreen.storyboard */,
 				B52B611522DA038600ED995C /* Info.plist */,
 				B52B610D22DA038300ED995C /* p05_reid_master.xcdatamodeld */,
+				B52B611B22DA09CB00ED995C /* Globals.swift */,
 			);
 			path = "p05-reid-master";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52B611C22DA09CB00ED995C /* Globals.swift in Sources */,
 				B52B610F22DA038300ED995C /* p05_reid_master.xcdatamodeld in Sources */,
 				B52B610922DA038300ED995C /* ViewController.swift in Sources */,
 				B52B610722DA038300ED995C /* AppDelegate.swift in Sources */,
