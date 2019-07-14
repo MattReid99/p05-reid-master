@@ -14,6 +14,7 @@
 		B52B611122DA038600ED995C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B52B611022DA038600ED995C /* Assets.xcassets */; };
 		B52B611422DA038600ED995C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B52B611222DA038600ED995C /* LaunchScreen.storyboard */; };
 		B52B611C22DA09CB00ED995C /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B611B22DA09CB00ED995C /* Globals.swift */; };
+		B52B611E22DA67D300ED995C /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B611D22DA67D300ED995C /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B52B611322DA038600ED995C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B52B611522DA038600ED995C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B52B611B22DA09CB00ED995C /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		B52B611D22DA67D300ED995C /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundButton.swift; path = "../../../p04-reid-master/p04-reid-master/p04-reid-master/RoundButton.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		B52B610522DA038300ED995C /* p05-reid-master */ = {
 			isa = PBXGroup;
 			children = (
+				B52B611D22DA67D300ED995C /* RoundButton.swift */,
 				B52B610622DA038300ED995C /* AppDelegate.swift */,
 				B52B610822DA038300ED995C /* ViewController.swift */,
 				B52B610A22DA038300ED995C /* Main.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B52B611C22DA09CB00ED995C /* Globals.swift in Sources */,
+				B52B611E22DA67D300ED995C /* RoundButton.swift in Sources */,
 				B52B610F22DA038300ED995C /* p05_reid_master.xcdatamodeld in Sources */,
 				B52B610922DA038300ED995C /* ViewController.swift in Sources */,
 				B52B610722DA038300ED995C /* AppDelegate.swift in Sources */,
